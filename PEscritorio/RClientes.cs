@@ -16,8 +16,7 @@ namespace PEscritorio
         public RClientes()
         {
             InitializeComponent();
-            PanelSubMenuCatalogo.Visible = false;
-            PanelSubmenuRegistro.Visible = false;
+            
         }
 
         private void BtnRProvee_Click(object sender, EventArgs e)
@@ -42,25 +41,12 @@ namespace PEscritorio
         }
         public void Desaparecer()
         {
-            PanelSubMenuCatalogo.Visible = false;
-            PanelSubmenuRegistro.Visible = false;
-            BtnCPintura.Visible = false;
-            BtnCMaterias.Visible = false;
-            ce = 0; re = 0; ipm = 0;
+           
         }
 
         private void BtnCatalogo_Click(object sender, EventArgs e)
         {
-            if (ce == 0)
-            {
-                Desaparecer();
-                PanelSubMenuCatalogo.Visible = true;
-                ce = 1;
-            }
-            else
-            {
-                Desaparecer();
-            }
+           
         }
 
         private void BtnCorte_Click(object sender, EventArgs e)
@@ -79,16 +65,7 @@ namespace PEscritorio
 
         private void BtnRegistro_Click(object sender, EventArgs e)
         {
-            if (re == 0)
-            {
-                Desaparecer();
-                PanelSubmenuRegistro.Visible = true;
-                re = 1;
-            }
-            else
-            {
-                Desaparecer();
-            }
+           
         }
 
         private void BtnRUsuar_Click(object sender, EventArgs e)
@@ -140,18 +117,7 @@ namespace PEscritorio
 
         private void BtnInventario_Click(object sender, EventArgs e)
         {
-            if (ipm == 0)
-            {
-                BtnCPintura.Visible = true;
-                BtnCMaterias.Visible = true;
-                ipm = 1;
-            }
-            else
-            {
-                BtnCPintura.Visible = false;
-                BtnCMaterias.Visible = false;
-                ipm = 0;
-            }
+           
         }
 
         private void BtnCBalance_Click(object sender, EventArgs e)
@@ -194,6 +160,11 @@ namespace PEscritorio
             ReprtesVentas PantallaReprtesVentas = new ReprtesVentas();
             this.Close();
             PantallaReprtesVentas.ShowDialog();
+        }
+
+        private void panel15_Paint(object sender, PaintEventArgs e)
+        {
+
         }
 
         private void BtnRPintura_Click(object sender, EventArgs e)

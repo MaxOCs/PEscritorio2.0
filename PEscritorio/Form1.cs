@@ -19,6 +19,7 @@ namespace PEscritorio
             Login PantallaLogin = new Login();
             PantallaLogin.ShowDialog();
             rjDropdownMenu1.IsMainMenu = true;
+            DMregistros.IsMainMenu = true;
         }
         private Form active = null;
         private void opening(Form child)
@@ -71,7 +72,7 @@ namespace PEscritorio
 
         private void BtnRegistro_Click(object sender, EventArgs e)
         {
-            
+            DMregistros.Show(BtnRegistro,BtnRegistro.Width, 0);
         }
 
         private void BtnCProvee_Click(object sender, EventArgs e)
@@ -219,6 +220,36 @@ namespace PEscritorio
         {
             opening(new CMateriales());
             LBubicacion.Text = "CATALOGO MATERIALES";
+        }
+
+        private void pROVEEDORToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            opening(new RProveedor());
+            LBubicacion.Text = "REGISTRO PROVEEDOR";
+        }
+
+        private void usuToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            opening(new RUsuario());
+            LBubicacion.Text = "REGISTRO USUARIO";
+        }
+
+        private void cLIENTESToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            opening(new RClientes());
+            LBubicacion.Text = "REGISTRO CLIENTES";
+        }
+
+        private void pINTURAToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            opening(new RPintura());
+            LBubicacion.Text = "REGISTRO PINTURAS";
+        }
+
+        private void mATERIALESToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            opening(new RMateriales());
+            LBubicacion.Text = "REGISTRO MATERIALES";
         }
 
         private void BtnInventario_Click(object sender, EventArgs e)
