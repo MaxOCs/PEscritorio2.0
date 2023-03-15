@@ -117,17 +117,11 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="txtUsuario.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="txtUbicacion.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="panel18.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DQAACw0B7QfALAAAAu1JREFUaEPtmjtoFFEUhqONRmxCumBQFAVrtVMUHxAVRQtFLcRGxUbQJthoKTaK
+        DAAACwwBP0AiyAAAAu1JREFUaEPtmjtoFFEUhqONRmxCumBQFAVrtVMUHxAVRQtFLcRGxUbQJthoKTaK
         EtRCULCwFbTx0SgiYiOIIj6q+ChsfIFvHP8z99t7MhvjZmZ2YS/kg4/d88+9Z8/sZndgsz2TJcuyIfla
         NhiVQxyujfWSHesfoXEzoxyujfUKLQu0rX+ExhnluLoutOtY/wh9u/9EtGerfJfv/g8sjw/Ubmg/mf42
         6xaWOxxoCcu74USMtyx3ONASlnfLicT1EfKWsDz9E+k2GN8hTw7Gd8iTg/Ed8uRgfIc8ORh/iu6FVyo5

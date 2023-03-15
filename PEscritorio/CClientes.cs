@@ -12,13 +12,11 @@ namespace PEscritorio
 {
     public partial class CClientes : Form
     {
-        byte ce = 0, re = 0, ipm = 0;
+        
 
         private void BtnCompras_Click(object sender, EventArgs e)
         {
-            Compras PantallaCompras = new Compras();
-            this.Close();
-            PantallaCompras.ShowDialog();
+           
         }
 
         private void BtnCatalogo_Click(object sender, EventArgs e)
@@ -32,16 +30,12 @@ namespace PEscritorio
 
         private void BtnCorte_Click(object sender, EventArgs e)
         {
-            Corte PantallaCorte = new Corte();
-            this.Close();
-            PantallaCorte.ShowDialog();
+           
         }
 
         private void BtnFactura_Click(object sender, EventArgs e)
         {
-            Factura PantallaFactura = new Factura();
-            this.Close();
-            PantallaFactura.ShowDialog();
+            
         }
 
         private void BtnRegistro_Click(object sender, EventArgs e)
@@ -51,16 +45,12 @@ namespace PEscritorio
 
         private void BtnRProvee_Click(object sender, EventArgs e)
         {
-            RProveedor PantallaRProveerdor = new RProveedor();
-            this.Close();
-            PantallaRProveerdor.ShowDialog();
+           
         }
 
         private void BtnCProvee_Click(object sender, EventArgs e)
         {
-            CProveedores PantallaCProveedores = new CProveedores();
-            this.Close();
-            PantallaCProveedores.ShowDialog();
+            
         }
 
         private void BtnCClie_Click(object sender, EventArgs e)
@@ -70,9 +60,7 @@ namespace PEscritorio
 
         private void BtnCCompras_Click(object sender, EventArgs e)
         {
-            CCompras PantallasCCompra = new CCompras();
-            this.Close();
-            PantallasCCompra.ShowDialog();
+            
         }
 
         private void BtnInventario_Click(object sender, EventArgs e)
@@ -82,44 +70,32 @@ namespace PEscritorio
 
         private void BtnCCorte_Click_1(object sender, EventArgs e)
         {
-            CCorte PantallaCCorte = new CCorte();
-            this.Close();
-            PantallaCCorte.ShowDialog();
+            
         }
 
         private void BtnCUsuari_Click(object sender, EventArgs e)
         {
-            CUsuarios PantallaCUsuari = new CUsuarios();
-            this.Close();
-            PantallaCUsuari.ShowDialog();
+           
         }
 
         private void BtnRMateria_Click(object sender, EventArgs e)
         {
-            RMateriales RMateria = new RMateriales();
-            this.Close();
-            RMateria.ShowDialog();
+           
         }
 
         private void BtnRUsuar_Click(object sender, EventArgs e)
         {
-            RUsuario PantallaRUsuario = new RUsuario();
-            this.Close();
-            PantallaRUsuario.ShowDialog();
+           
         }
 
         private void BtnCBalance_Click(object sender, EventArgs e)
         {
-            CBalance PantallaCBalance = new CBalance();
-            this.Close();
-            PantallaCBalance.ShowDialog();
+            
         }
 
         private void BtnRPintura_Click(object sender, EventArgs e)
         {
-            RPintura PantallaRPintura = new RPintura();
-            this.Close();
-            PantallaRPintura.ShowDialog();
+           
         }
 
         private void BtnRClie_Click(object sender, EventArgs e)

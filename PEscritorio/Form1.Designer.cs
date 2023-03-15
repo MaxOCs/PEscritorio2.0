@@ -60,10 +60,10 @@
             this.vENTASToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cOMPRASToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.iNVENTARIOToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.bALANCESToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cORTESToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pINTURASToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mATERIALESToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bALANCESToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cORTESToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             txtUsuario = new System.Windows.Forms.Label();
             this.PanelMenu.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -302,10 +302,10 @@
             this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(50)))), ((int)(((byte)(90)))));
             this.panel10.Controls.Add(this.LBubicacion);
             this.panel10.Controls.Add(this.panel12);
-            this.panel10.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel10.Location = new System.Drawing.Point(79, 0);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(238, 64);
+            this.panel10.Size = new System.Drawing.Size(1019, 64);
             this.panel10.TabIndex = 1;
             // 
             // LBubicacion
@@ -376,42 +376,42 @@
             this.rjDropdownMenu1.MenuItemTextColor = System.Drawing.Color.Empty;
             this.rjDropdownMenu1.Name = "rjDropdownMenu1";
             this.rjDropdownMenu1.PrimaryColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(50)))), ((int)(((byte)(90)))));
-            this.rjDropdownMenu1.Size = new System.Drawing.Size(181, 202);
+            this.rjDropdownMenu1.Size = new System.Drawing.Size(68, 180);
             this.rjDropdownMenu1.Opening += new System.ComponentModel.CancelEventHandler(this.rjDropdownMenu1_Opening);
             // 
             // pROVEEDORToolStripMenuItem
             // 
+            this.pROVEEDORToolStripMenuItem.Image = global::PEscritorio.Properties.Resources.CProveedor;
             this.pROVEEDORToolStripMenuItem.Name = "pROVEEDORToolStripMenuItem";
             this.pROVEEDORToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.pROVEEDORToolStripMenuItem.Text = "PROVEEDOR";
             this.pROVEEDORToolStripMenuItem.Click += new System.EventHandler(this.pROVEEDORToolStripMenuItem_Click);
             // 
             // uSUARIOSToolStripMenuItem
             // 
+            this.uSUARIOSToolStripMenuItem.Image = global::PEscritorio.Properties.Resources.CUsuario;
             this.uSUARIOSToolStripMenuItem.Name = "uSUARIOSToolStripMenuItem";
             this.uSUARIOSToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.uSUARIOSToolStripMenuItem.Text = "USUARIOS";
             this.uSUARIOSToolStripMenuItem.Click += new System.EventHandler(this.uSUARIOSToolStripMenuItem_Click);
             // 
             // cLIENTESToolStripMenuItem
             // 
+            this.cLIENTESToolStripMenuItem.Image = global::PEscritorio.Properties.Resources.CClientes;
             this.cLIENTESToolStripMenuItem.Name = "cLIENTESToolStripMenuItem";
             this.cLIENTESToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.cLIENTESToolStripMenuItem.Text = "CLIENTES";
             this.cLIENTESToolStripMenuItem.Click += new System.EventHandler(this.cLIENTESToolStripMenuItem_Click);
             // 
             // vENTASToolStripMenuItem
             // 
+            this.vENTASToolStripMenuItem.Image = global::PEscritorio.Properties.Resources.CVentas;
             this.vENTASToolStripMenuItem.Name = "vENTASToolStripMenuItem";
             this.vENTASToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.vENTASToolStripMenuItem.Text = "VENTAS";
             this.vENTASToolStripMenuItem.Click += new System.EventHandler(this.vENTASToolStripMenuItem_Click);
             // 
             // cOMPRASToolStripMenuItem
             // 
+            this.cOMPRASToolStripMenuItem.Image = global::PEscritorio.Properties.Resources.CCompras;
             this.cOMPRASToolStripMenuItem.Name = "cOMPRASToolStripMenuItem";
             this.cOMPRASToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.cOMPRASToolStripMenuItem.Text = "COMPRAS";
             this.cOMPRASToolStripMenuItem.Click += new System.EventHandler(this.cOMPRASToolStripMenuItem_Click);
             // 
             // iNVENTARIOToolStripMenuItem
@@ -419,36 +419,36 @@
             this.iNVENTARIOToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.pINTURASToolStripMenuItem,
             this.mATERIALESToolStripMenuItem});
+            this.iNVENTARIOToolStripMenuItem.Image = global::PEscritorio.Properties.Resources.CInventario;
             this.iNVENTARIOToolStripMenuItem.Name = "iNVENTARIOToolStripMenuItem";
             this.iNVENTARIOToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.iNVENTARIOToolStripMenuItem.Text = "INVENTARIO";
             this.iNVENTARIOToolStripMenuItem.Click += new System.EventHandler(this.iNVENTARIOToolStripMenuItem_Click);
-            // 
-            // bALANCESToolStripMenuItem
-            // 
-            this.bALANCESToolStripMenuItem.Name = "bALANCESToolStripMenuItem";
-            this.bALANCESToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.bALANCESToolStripMenuItem.Text = "BALANCES";
-            // 
-            // cORTESToolStripMenuItem
-            // 
-            this.cORTESToolStripMenuItem.Name = "cORTESToolStripMenuItem";
-            this.cORTESToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.cORTESToolStripMenuItem.Text = "CORTES";
             // 
             // pINTURASToolStripMenuItem
             // 
+            this.pINTURASToolStripMenuItem.Image = global::PEscritorio.Properties.Resources.RPINTURA;
             this.pINTURASToolStripMenuItem.Name = "pINTURASToolStripMenuItem";
             this.pINTURASToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.pINTURASToolStripMenuItem.Text = "PINTURAS";
             this.pINTURASToolStripMenuItem.Click += new System.EventHandler(this.pINTURASToolStripMenuItem_Click);
             // 
             // mATERIALESToolStripMenuItem
             // 
+            this.mATERIALESToolStripMenuItem.Image = global::PEscritorio.Properties.Resources.RMateriales;
             this.mATERIALESToolStripMenuItem.Name = "mATERIALESToolStripMenuItem";
             this.mATERIALESToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.mATERIALESToolStripMenuItem.Text = "MATERIALES";
             this.mATERIALESToolStripMenuItem.Click += new System.EventHandler(this.mATERIALESToolStripMenuItem_Click);
+            // 
+            // bALANCESToolStripMenuItem
+            // 
+            this.bALANCESToolStripMenuItem.Image = global::PEscritorio.Properties.Resources.CBalace;
+            this.bALANCESToolStripMenuItem.Name = "bALANCESToolStripMenuItem";
+            this.bALANCESToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            // 
+            // cORTESToolStripMenuItem
+            // 
+            this.cORTESToolStripMenuItem.Image = global::PEscritorio.Properties.Resources.CCorte;
+            this.cORTESToolStripMenuItem.Name = "cORTESToolStripMenuItem";
+            this.cORTESToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             // 
             // Form1
             // 
